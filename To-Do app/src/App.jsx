@@ -15,6 +15,8 @@ function App() {
   });
 
   useEffect(() => {
+    //conflict testing from master
+    //checking merge conflict
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
 
